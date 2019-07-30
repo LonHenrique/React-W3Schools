@@ -5,6 +5,9 @@ import Footer from './Components/Footer'
 import MainHeader from './Components/MainHeader'
 import Main from './Components/Main'
 import Services from './Components/Services'
+import Portfolio from './Components/Portfolio'
+import Precos from './Components/Precos'
+import Contato from './Components/Contato'
 
 class App extends Component {
   render() { 
@@ -14,7 +17,11 @@ class App extends Component {
           <MainHeader />
 
           <Route path='/' exact component = { Main } />
-          <Route patch='/Services' component = { Services } />
+          <Route path='/Services' component = { Services } />
+          <Route path='/Portfolio' component = { Portfolio } />
+          <Route path='/Precos' component = { Precos } />
+          <Route path='/Contato' component = { Contato } />
+          
 
           <Footer />
         </div>

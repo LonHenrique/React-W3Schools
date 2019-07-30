@@ -17,17 +17,17 @@ const MainHeader = props => {
                     <div className='collapse navbar-collapse' id='myNavbar'>
                     <ul className='nav navbar-nav navbar-right'>
                         <li><Link to='/'> SOBRE</Link></li>
-                        <li><Link to='/services'>SERVIÇOS</Link></li>
-                        <li><Link to='#portfolio'>PORTFOLIO</Link></li>
-                        <li><Link to='#pricing'>PREÇOS</Link></li>
-                        <li><Link to='#contact'>CONTATO</Link></li>
+                        <li><Link to='/Services'>SERVIÇOS</Link></li>
+                        <li><Link to='/Portfolio'>PORTFOLIO</Link></li>
+                        <li><Link to='/Precos'>PREÇOS</Link></li>
+                        <li><Link to='/Contato'>CONTATO</Link></li>
                     </ul>
                     </div>
                 </div>
             </nav>
             <div className='jumbotron text-center'>
                 <h1>Empresa</h1> 
-                <p>We specialize in blablabla</p> 
+                <p>Especializado em Desenvolvimento Mobile</p> 
                 <form>
                     <div className='input-group'>
                     <input type='email' className='form-control' size='50' placeholder='Email Address' required />
